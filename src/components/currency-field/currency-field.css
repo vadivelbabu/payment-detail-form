@@ -1,0 +1,46 @@
+:host {
+  display: inline-block;
+}
+
+.currency {
+  border: 1px solid #aaa;
+  padding: 5px;
+  color: #999;
+  font-size: 20px;
+  width: fit-content;
+  font-family: "arial";  
+  margin-left: 34px;
+}
+
+.euro, .euro:disabled, .cent {
+  height:20px;
+  border:none;
+  background: transparent;
+  font-size: 20px;
+  font-family: "arial";
+  color: #777;
+}
+.euro, .euro:disabled {
+  width:100px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.cent {
+  width: 40px;
+  text-align: center;
+}
+
+.cent::-webkit-scrollbar {
+  display: none;
+}
+
+input:focus {
+  outline:none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
